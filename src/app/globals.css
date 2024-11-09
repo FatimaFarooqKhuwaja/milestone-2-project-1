@@ -1,0 +1,288 @@
+body {
+  background-color: black;
+  margin:0px;
+  padding:0px;
+}
+
+/* Navbar Styling Start Here*/
+ul{
+  display: flex;
+  justify-content: space-around;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li a{
+  color:white;
+  font-size:30px;
+  text-decoration:underline red;
+}
+
+li a:hover{
+  color:antiquewhite;
+  text-decoration: underline;
+}
+
+/* Navbar Styling Ends Here*/
+
+/* Front Page Styling start Here */
+
+#line{
+  width:10px;
+  height:full;
+  align-self:left;
+  background-color: red;
+}
+
+#childrenflex{
+  display: flex;
+}
+
+#mainimage{
+  height:600px;
+  width:600px;
+  padding-top:60px;
+}
+
+#divFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
+span{
+  color:red;
+  font-size: 80px;
+}
+
+#Topic{
+  color: white;
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline red;
+}
+
+p{
+  color:antiquewhite;;
+  font-size: 30px;
+}
+
+button  {
+  background-color: red;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  align-content: center;
+  border-radius: 20px;
+  height:50px;
+  width:140px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:white;
+  color: red;
+}
+
+#maindiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-top: 80px;
+  margin-left:40px;
+}
+
+/* Front Page Styling Ends Here */
+
+/* Live Games Section Styling start Here */
+
+#img-text-div{
+  color:white;
+  justify-items: center;
+}
+
+#game-image{
+  margin-top:18px;
+  height:190px;
+  width:290px;
+  border-radius: 10px;
+} 
+
+#game-button{
+ font-size: 15px;
+  background-color: orangered;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  height:40px;
+  width:140px;
+  border-radius: 20px;
+  padding-top: 15px;
+}
+
+#game-button:hover{
+  background-color: white;
+  color: red;
+}
+
+#gamediv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* Live Games Section Styling Ends Here */
+
+/* Contact Section Styling start Here */
+
+#contactflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  line-height: 25px;
+}
+
+#Stream{
+  margin-top: 70px;
+  color:red;
+  font-size: 50px;
+}
+#Time{
+  color:antiquewhite;
+  font-size: 30px;
+}
+
+#form{
+  height:400px;
+  width:250px;
+  background-color:whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+
+#login{
+  font-size: 25px;
+  color:red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#loginbutton{
+  background-color: white;
+  color: red;
+}
+
+#input{
+  height:30px;
+  width:200px;
+  margin-top: 20px;
+}
+
+#flexxx{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Contact Section Styling Ends Here */
+
+/* Media Queries Styling Start Here */
+
+ @media (max-width:600px){ 
+  li a{
+    color:white;
+    font-size:15px;
+  }
+
+  #mainimage{
+    height:300px;
+    width:300px;
+    padding-top:50px;
+  }
+
+  #Topic{
+    font-size: 40px;
+  }
+
+  p{
+    color:antiquewhite;;
+    font-size: 15px;
+  }
+
+  button{
+    height:50px;
+    width:150px;
+    font-size: 15px;
+  }
+
+  #maindiv{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 15px;
+ }
+
+  #Stream{
+  margin-top: 25px;
+  color:red;
+  font-size: 30px;
+ }
+
+  #Time{
+  color:antiquewhite;
+  font-size: 30px;
+}
+
+ #divFlex{
+  display: flex;
+  flex-direction: column;
+}
+
+ #gamediv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+ #game-image{
+  margin-top:20px;
+  height:160px;
+  width:240px;
+  border-radius: 10px;
+} 
+
+ #game-button{
+  height:30px;
+  width:110px;
+  padding-top: 10px;
+}
+
+ #form{
+  height:300px;
+  width:240px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  margin-left: 25px;
+}
+
+ #login{
+  font-size: 25px;
+}
+
+ #input{
+  height:30px;
+  width:200px;
+  margin-top: 20px;
+}
+
+ #flexxx{
+  display: flex;
+  flex-direction: column;
+}
+}
+/* Media Queries Styling Ends Here */
+
